@@ -14,26 +14,29 @@
         </div>
         <nav class="header__nav" aria-label="Main Navigation">
             <ul class="header__nav-list">
-                <li class="header__nav-item"><a href="#" class="header__nav-link">Home</a></li>
-                <li class="header__nav-item"><a href="#" class="header__nav-link">About</a></li>
-                <li class="header__nav-item"><a href="#" class="header__nav-link">Services</a></li>
-                <li class="header__nav-item"><a href="#" class="header__nav-link">Contact</a></li>
+                <li class="header__nav-item"><a href="#home" class="header__nav-link">Home</a></li>
+                <li class="header__nav-item"><a href="#about" class="header__nav-link">About</a></li>
+                <li class="header__nav-item"><a href="#services" class="header__nav-link">Services</a></li>
+                <li class="header__nav-item"><a href="#contact" class="header__nav-link">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <main class="main-layout">
         
-        <section class="hero-container">
-            <h1 class="hero-container__title">Main Headline</h1>
-            <p class="hero-container__text">Building visuals with structural integrity and semantic hierarchy.</p>
-            <button class="button button--primary">Call To Action</button>
+        <section id="home" class="hero-container">
+            <h1 class="hero-container__title">Manish Kumar</h1>
+            <p class="hero-container__text">
+                <strong>Madhav Institute of Technology and Science (MITS)</strong><br>
+                Branch: Mathematics & Computing
+            </p>
+            <a href="#contact" class="button button--primary">Connect with Me</a>
         </section>
 
-        <div class="content-grid">
+        <div id="about" class="content-grid">
             
             <article class="card">
-                <img src="https://via.placeholder.com/288x180.webp" alt="Abstract architectural framework blueprint" class="card__image" width="288" height="180">
+                <img src="blueprint.jpg" alt="Abstract architectural framework blueprint" class="card__image" width="288" height="180">
                 <div class="card__body">
                     <h2 class="card__title">Major Section</h2>
                     <p class="card__text">This block represents your primary structured informational data card within the macro layout framework.</p>
@@ -41,7 +44,7 @@
             </article>
 
             <article class="card">
-                <img src="https://via.placeholder.com/288x180.webp" alt="Clean visual interface layout wireframe" class="card__image" width="288" height="180">
+                <img src="wireframe.jpg" alt="Clean visual interface layout wireframe" class="card__image" width="288" height="180">
                 <div class="card__body">
                     <h3 class="card__subtitle">Subsection A</h3>
                     <p class="card__text">Using modular blocks keeps layouts highly predictable and easier to maintain long-term.</p>
@@ -49,40 +52,33 @@
             </article>
 
             <article class="card">
-               <img src="blueprint.jpg.png" alt="Abstract architectural framework blueprint" class="card__image" width="288" height="180"> 
-
-<img src="https://images.unsplash.com/photo-1581291518655-9523c932dedf?w=500&auto=format&fit=crop&q=60" 
-     alt="Clean visual interface layout wireframe" 
-     class="card__image" 
-     width="288" 
-     height="180">
-
-<img src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=500&auto=format&fit=crop&q=60" 
-     alt="Code structure schematic illustration" 
-     class="card__image" 
-     width="288" 
-     height="180">
+                <img src="code.jpg" alt="Code structure schematic illustration" class="card__image" width="288" height="180">
                 <div class="card__body">
                     <h3 class="card__subtitle">Subsection B</h3>
                     <p class="card__text">Adhering strictly to BEM class rules isolates styling scopes perfectly.</p>
                 </div>
             </article>
 
-            <aside class="sidebar-block">
-                <h2 class="sidebar-block__title">Dan Brown's Principles</h2>
-                <ul class="sidebar-block__list">
-                    <li><strong>Principle of Objects:</strong> Content is living data, not static text.</li>
-                    <li><strong>Principle of Choices:</strong> Minimize your cognitive load.</li>
-                </ul>
+            <aside id="services" class="sidebar-block">
+                <h2 class="sidebar-block__title">Services & Inquiry</h2>
+                <p class="sidebar-block__text">For technical support, quantitative insights, or career-related collaborations, feel free to drop an email message directly:</p>
+                <div class="sidebar-block__detail">
+                    <strong>Gmail ID:</strong> <a href="mailto:manish93244@gmail.com" class="sidebar-block__link">manish93244@gmail.com</a>
+                </div>
             </aside>
 
         </div>
     </main>
 
-    <footer class="footer">
+    <footer id="contact" class="footer">
         <div class="footer__contact-info">
-            <p>&copy; 2026 DecodeLabs Internal Engineering Track. All Rights Reserved.</p>
-            <p>Email: decodelabs.tech@gmail.com | Greater Lucknow, India</p>
+            <h2 class="footer__title">Contact Information</h2>
+            <p class="footer__text"><strong>Phone Number:</strong> +91 6200488260</p>
+            <p class="footer__text">
+                <strong>LinkedIn Portfolio:</strong> 
+                <a href="https://www.linkedin.com/in/manish-kumar-b2aa4a375" target="_blank" rel="noopener noreferrer" class="footer__link">manish-kumar-b2aa4a375</a>
+            </p>
+            <p class="footer__meta">&copy; 2026 DecodeLabs Internal Engineering Track. All Rights Reserved.</p>
         </div>
     </footer>
 
