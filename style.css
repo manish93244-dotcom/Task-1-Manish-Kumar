@@ -171,3 +171,64 @@ body {
     text-align: center;
     padding: 0 20px;
 }
+/* Smooth scrolling transition when clicking navigation menu links */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Services section design details */
+.sidebar-block__text {
+    margin-bottom: 12px;
+    color: #4a5568;
+}
+
+.sidebar-block__detail {
+    background-color: #ffffff;
+    padding: 12px;
+    border-radius: 4px;
+    display: inline-block;
+    border: 1px solid #e2e8f0;
+}
+
+.sidebar-block__link {
+    color: #2b6cb0;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.sidebar-block__link:hover {
+    text-decoration: underline;
+}
+
+/* Footer layout updates for clear structural layout display */
+.footer {
+    height: auto; /* Dynamically adjusting padding properties */
+    padding: 60px 20px;
+}
+
+.footer__title {
+    color: #ffffff;
+    margin-bottom: 16px;
+    font-size: 1.75rem;
+}
+
+.footer__text {
+    margin-bottom: 8px;
+    font-size: 1.05rem;
+}
+
+.footer__link {
+    color: #ecc94b; /* Distinct visibility contrast across baseline blue scales */
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.footer__link:hover {
+    text-decoration: underline;
+}
+
+.footer__meta {
+    margin-top: 32px;
+    font-size: 0.85rem;
+    opacity: 0.6;
+}
